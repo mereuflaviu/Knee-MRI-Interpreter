@@ -1,0 +1,285 @@
+
+[INFO] Training resnet18...
+
+/home/eduardo/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/eduardo/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+[INFO] Epoch 1/10 for resnet18
+100%|██████████| 53/53 [00:28<00:00,  1.89it/s, Epoch=0, Train_Loss=0.526]
+100%|██████████| 6/6 [00:03<00:00,  1.51it/s, Epoch=0, Valid_Acc=69.1, Valid_Loss=0.589]
+Validation Metrics - Accuracy: 0.6907, Precision: 0.5232, Recall: 0.4790, F1: 0.4889, ROC-AUC: 0.7762
+
+[INFO] Epoch 2/10 for resnet18
+100%|██████████| 53/53 [00:10<00:00,  4.83it/s, Epoch=1, Train_Loss=0.441]
+100%|██████████| 6/6 [00:00<00:00, 10.28it/s, Epoch=1, Valid_Acc=69, Valid_Loss=0.574]  
+Validation Metrics - Accuracy: 0.6898, Precision: 0.8619, Recall: 0.4547, F1: 0.4873, ROC-AUC: 0.8102
+
+[INFO] Epoch 3/10 for resnet18
+100%|██████████| 53/53 [00:10<00:00,  4.87it/s, Epoch=2, Train_Loss=0.398]
+100%|██████████| 6/6 [00:00<00:00,  9.68it/s, Epoch=2, Valid_Acc=71.6, Valid_Loss=0.56] 
+Validation Metrics - Accuracy: 0.7157, Precision: 0.8323, Recall: 0.5537, F1: 0.5888, ROC-AUC: 0.8229
+
+[INFO] Epoch 4/10 for resnet18
+100%|██████████| 53/53 [00:10<00:00,  4.85it/s, Epoch=3, Train_Loss=0.368]
+100%|██████████| 6/6 [00:00<00:00,  9.69it/s, Epoch=3, Valid_Acc=73.8, Valid_Loss=0.537]
+Validation Metrics - Accuracy: 0.7380, Precision: 0.8179, Recall: 0.5866, F1: 0.6512, ROC-AUC: 0.8226
+
+[INFO] Epoch 5/10 for resnet18
+100%|██████████| 53/53 [00:11<00:00,  4.79it/s, Epoch=4, Train_Loss=0.338]
+100%|██████████| 6/6 [00:00<00:00,  9.73it/s, Epoch=4, Valid_Acc=76.7, Valid_Loss=0.508]
+Validation Metrics - Accuracy: 0.7667, Precision: 0.8092, Recall: 0.6884, F1: 0.7318, ROC-AUC: 0.8295
+
+[INFO] Epoch 6/10 for resnet18
+100%|██████████| 53/53 [00:11<00:00,  4.69it/s, Epoch=5, Train_Loss=0.296]
+100%|██████████| 6/6 [00:00<00:00,  9.23it/s, Epoch=5, Valid_Acc=73.3, Valid_Loss=0.644]
+Validation Metrics - Accuracy: 0.7333, Precision: 0.7938, Recall: 0.6237, F1: 0.6696, ROC-AUC: 0.7912
+
+[INFO] Epoch 7/10 for resnet18
+100%|██████████| 53/53 [00:10<00:00,  4.86it/s, Epoch=6, Train_Loss=0.26] 
+100%|██████████| 6/6 [00:00<00:00,  9.78it/s, Epoch=6, Valid_Acc=74.4, Valid_Loss=0.614]
+Validation Metrics - Accuracy: 0.7435, Precision: 0.8053, Recall: 0.6061, F1: 0.6730, ROC-AUC: 0.8245
+
+[INFO] Epoch 8/10 for resnet18
+100%|██████████| 53/53 [00:12<00:00,  4.12it/s, Epoch=7, Train_Loss=0.227]
+100%|██████████| 6/6 [00:01<00:00,  4.83it/s, Epoch=7, Valid_Acc=73.5, Valid_Loss=0.679]
+Validation Metrics - Accuracy: 0.7352, Precision: 0.7652, Recall: 0.6652, F1: 0.6903, ROC-AUC: 0.8006
+
+[INFO] Epoch 9/10 for resnet18
+100%|██████████| 53/53 [00:17<00:00,  3.06it/s, Epoch=8, Train_Loss=0.206]
+100%|██████████| 6/6 [00:00<00:00,  7.03it/s, Epoch=8, Valid_Acc=72, Valid_Loss=0.799]  
+Validation Metrics - Accuracy: 0.7204, Precision: 0.7783, Recall: 0.5976, F1: 0.6493, ROC-AUC: 0.7902
+
+[INFO] Epoch 10/10 for resnet18
+100%|██████████| 53/53 [00:11<00:00,  4.74it/s, Epoch=9, Train_Loss=0.182]
+100%|██████████| 6/6 [00:00<00:00,  9.74it/s, Epoch=9, Valid_Acc=74.9, Valid_Loss=0.69] 
+Validation Metrics - Accuracy: 0.7491, Precision: 0.8175, Recall: 0.6010, F1: 0.6749, ROC-AUC: 0.8155
+
+[INFO] Training efficientnet_b0...
+
+Loaded pretrained weights for efficientnet-b0
+
+[INFO] Epoch 1/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.33it/s, Epoch=0, Train_Loss=0.575]
+100%|██████████| 6/6 [00:00<00:00,  7.08it/s, Epoch=0, Valid_Acc=63.9, Valid_Loss=0.672]
+Validation Metrics - Accuracy: 0.6389, Precision: 0.5306, Recall: 0.3419, F1: 0.3111, ROC-AUC: 0.6056
+
+[INFO] Epoch 2/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.40it/s, Epoch=1, Train_Loss=0.497]
+100%|██████████| 6/6 [00:00<00:00,  6.94it/s, Epoch=1, Valid_Acc=65.6, Valid_Loss=0.633]
+Validation Metrics - Accuracy: 0.6556, Precision: 0.5159, Recall: 0.3996, F1: 0.3995, ROC-AUC: 0.7175
+
+[INFO] Epoch 3/10 for efficientnet_b0
+100%|██████████| 53/53 [00:21<00:00,  2.43it/s, Epoch=2, Train_Loss=0.452]
+100%|██████████| 6/6 [00:00<00:00,  6.98it/s, Epoch=2, Valid_Acc=67.1, Valid_Loss=0.605]
+Validation Metrics - Accuracy: 0.6713, Precision: 0.5026, Recall: 0.4464, F1: 0.4524, ROC-AUC: 0.7792
+
+[INFO] Epoch 4/10 for efficientnet_b0
+100%|██████████| 53/53 [00:21<00:00,  2.43it/s, Epoch=3, Train_Loss=0.415]
+100%|██████████| 6/6 [00:00<00:00,  7.03it/s, Epoch=3, Valid_Acc=68.3, Valid_Loss=0.601]
+Validation Metrics - Accuracy: 0.6833, Precision: 0.8456, Recall: 0.4434, F1: 0.4768, ROC-AUC: 0.7829
+
+[INFO] Epoch 5/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.37it/s, Epoch=4, Train_Loss=0.393]
+100%|██████████| 6/6 [00:01<00:00,  5.80it/s, Epoch=4, Valid_Acc=66.7, Valid_Loss=0.68] 
+Validation Metrics - Accuracy: 0.6667, Precision: 0.8786, Recall: 0.3733, F1: 0.4217, ROC-AUC: 0.7814
+
+[INFO] Epoch 6/10 for efficientnet_b0
+100%|██████████| 53/53 [00:23<00:00,  2.30it/s, Epoch=5, Train_Loss=0.363]
+100%|██████████| 6/6 [00:00<00:00,  6.90it/s, Epoch=5, Valid_Acc=67.5, Valid_Loss=0.729]
+Validation Metrics - Accuracy: 0.6750, Precision: 0.8785, Recall: 0.3738, F1: 0.4218, ROC-AUC: 0.7789
+
+[INFO] Epoch 7/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.40it/s, Epoch=6, Train_Loss=0.336]
+100%|██████████| 6/6 [00:00<00:00,  6.90it/s, Epoch=6, Valid_Acc=66.8, Valid_Loss=0.807]
+Validation Metrics - Accuracy: 0.6676, Precision: 0.8439, Recall: 0.3979, F1: 0.4372, ROC-AUC: 0.7584
+
+[INFO] Epoch 8/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.41it/s, Epoch=7, Train_Loss=0.314]
+100%|██████████| 6/6 [00:00<00:00,  6.90it/s, Epoch=7, Valid_Acc=66.6, Valid_Loss=0.841]
+Validation Metrics - Accuracy: 0.6657, Precision: 0.8246, Recall: 0.4105, F1: 0.4404, ROC-AUC: 0.7681
+
+[INFO] Epoch 9/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.40it/s, Epoch=8, Train_Loss=0.293]
+100%|██████████| 6/6 [00:00<00:00,  6.96it/s, Epoch=8, Valid_Acc=68.1, Valid_Loss=0.839]
+Validation Metrics - Accuracy: 0.6815, Precision: 0.8244, Recall: 0.4227, F1: 0.4794, ROC-AUC: 0.7700
+
+[INFO] Epoch 10/10 for efficientnet_b0
+100%|██████████| 53/53 [00:22<00:00,  2.40it/s, Epoch=9, Train_Loss=0.268]
+100%|██████████| 6/6 [00:00<00:00,  6.81it/s, Epoch=9, Valid_Acc=69.3, Valid_Loss=0.74] 
+Validation Metrics - Accuracy: 0.6926, Precision: 0.7968, Recall: 0.5031, F1: 0.5578, ROC-AUC: 0.7760
+
+[INFO] Training vit_b_16...
+
+/home/eduardo/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/eduardo/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ViT_B_16_Weights.IMAGENET1K_V1`. You can also use `weights=ViT_B_16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+[INFO] Epoch 1/10 for vit_b_16
+100%|██████████| 53/53 [06:34<00:00,  7.45s/it, Epoch=0, Train_Loss=0.53] 
+100%|██████████| 6/6 [00:16<00:00,  2.83s/it, Epoch=0, Valid_Acc=64.5, Valid_Loss=0.637]
+Validation Metrics - Accuracy: 0.6454, Precision: 0.4965, Recall: 0.3675, F1: 0.3546, ROC-AUC: 0.7524
+
+[INFO] Epoch 2/10 for vit_b_16
+100%|██████████| 53/53 [06:46<00:00,  7.67s/it, Epoch=1, Train_Loss=0.476]
+100%|██████████| 6/6 [00:17<00:00,  2.85s/it, Epoch=1, Valid_Acc=66.8, Valid_Loss=0.613]
+Validation Metrics - Accuracy: 0.6676, Precision: 0.7957, Recall: 0.5555, F1: 0.5074, ROC-AUC: 0.7945
+
+[INFO] Epoch 3/10 for vit_b_16
+100%|██████████| 53/53 [06:42<00:00,  7.59s/it, Epoch=2, Train_Loss=0.457]
+100%|██████████| 6/6 [00:16<00:00,  2.83s/it, Epoch=2, Valid_Acc=67.2, Valid_Loss=0.601]
+Validation Metrics - Accuracy: 0.6722, Precision: 0.8438, Recall: 0.4398, F1: 0.4515, ROC-AUC: 0.7582
+
+[INFO] Epoch 4/10 for vit_b_16
+100%|██████████| 53/53 [06:41<00:00,  7.57s/it, Epoch=3, Train_Loss=0.437]
+100%|██████████| 6/6 [00:16<00:00,  2.81s/it, Epoch=3, Valid_Acc=68.1, Valid_Loss=0.609]
+Validation Metrics - Accuracy: 0.6815, Precision: 0.8482, Recall: 0.4457, F1: 0.4661, ROC-AUC: 0.8037
+
+[INFO] Epoch 5/10 for vit_b_16
+100%|██████████| 53/53 [06:44<00:00,  7.63s/it, Epoch=4, Train_Loss=0.425]
+100%|██████████| 6/6 [00:17<00:00,  2.84s/it, Epoch=4, Valid_Acc=72.2, Valid_Loss=0.548]
+Validation Metrics - Accuracy: 0.7222, Precision: 0.7645, Recall: 0.6536, F1: 0.6621, ROC-AUC: 0.8050
+
+[INFO] Epoch 6/10 for vit_b_16
+100%|██████████| 53/53 [06:46<00:00,  7.68s/it, Epoch=5, Train_Loss=0.411]
+100%|██████████| 6/6 [00:17<00:00,  2.84s/it, Epoch=5, Valid_Acc=71.3, Valid_Loss=0.577]
+Validation Metrics - Accuracy: 0.7130, Precision: 0.8220, Recall: 0.6197, F1: 0.6054, ROC-AUC: 0.8140
+
+[INFO] Epoch 7/10 for vit_b_16
+100%|██████████| 53/53 [06:52<00:00,  7.78s/it, Epoch=6, Train_Loss=0.388]
+100%|██████████| 6/6 [00:17<00:00,  2.84s/it, Epoch=6, Valid_Acc=73.3, Valid_Loss=0.534]
+Validation Metrics - Accuracy: 0.7333, Precision: 0.7585, Recall: 0.6513, F1: 0.6817, ROC-AUC: 0.8217
+
+[INFO] Epoch 8/10 for vit_b_16
+100%|██████████| 53/53 [06:53<00:00,  7.79s/it, Epoch=7, Train_Loss=0.375]
+100%|██████████| 6/6 [00:16<00:00,  2.80s/it, Epoch=7, Valid_Acc=73.2, Valid_Loss=0.579]
+Validation Metrics - Accuracy: 0.7324, Precision: 0.8036, Recall: 0.5715, F1: 0.6442, ROC-AUC: 0.8178
+
+[INFO] Epoch 9/10 for vit_b_16
+100%|██████████| 53/53 [06:49<00:00,  7.73s/it, Epoch=8, Train_Loss=0.356]
+100%|██████████| 6/6 [00:16<00:00,  2.82s/it, Epoch=8, Valid_Acc=72, Valid_Loss=0.551]  
+Validation Metrics - Accuracy: 0.7204, Precision: 0.7509, Recall: 0.6855, F1: 0.6828, ROC-AUC: 0.8068
+
+[INFO] Epoch 10/10 for vit_b_16
+100%|██████████| 53/53 [06:54<00:00,  7.83s/it, Epoch=9, Train_Loss=0.332]
+100%|██████████| 6/6 [00:17<00:00,  2.84s/it, Epoch=9, Valid_Acc=74.2, Valid_Loss=0.517]
+Validation Metrics - Accuracy: 0.7417, Precision: 0.7854, Recall: 0.6502, F1: 0.6929, ROC-AUC: 0.8313
+
+[INFO] Training swin_t...
+
+/home/eduardo/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/eduardo/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=Swin_T_Weights.IMAGENET1K_V1`. You can also use `weights=Swin_T_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+[INFO] Epoch 1/10 for swin_t
+100%|██████████| 53/53 [03:34<00:00,  4.05s/it, Epoch=0, Train_Loss=0.541]
+100%|██████████| 6/6 [00:03<00:00,  1.73it/s, Epoch=0, Valid_Acc=65, Valid_Loss=0.648]  
+Validation Metrics - Accuracy: 0.6500, Precision: 0.5621, Recall: 0.3697, F1: 0.3593, ROC-AUC: 0.6634
+
+[INFO] Epoch 2/10 for swin_t
+100%|██████████| 53/53 [03:40<00:00,  4.15s/it, Epoch=1, Train_Loss=0.497]
+100%|██████████| 6/6 [00:03<00:00,  1.75it/s, Epoch=1, Valid_Acc=67.9, Valid_Loss=0.6]  
+Validation Metrics - Accuracy: 0.6787, Precision: 0.5101, Recall: 0.4551, F1: 0.4685, ROC-AUC: 0.7730
+
+[INFO] Epoch 3/10 for swin_t
+100%|██████████| 53/53 [03:27<00:00,  3.91s/it, Epoch=2, Train_Loss=0.463]
+100%|██████████| 6/6 [00:03<00:00,  1.78it/s, Epoch=2, Valid_Acc=68.3, Valid_Loss=0.595]
+Validation Metrics - Accuracy: 0.6833, Precision: 0.8257, Recall: 0.4894, F1: 0.4970, ROC-AUC: 0.7933
+
+[INFO] Epoch 4/10 for swin_t
+100%|██████████| 53/53 [03:38<00:00,  4.12s/it, Epoch=3, Train_Loss=0.444]
+100%|██████████| 6/6 [00:03<00:00,  1.76it/s, Epoch=3, Valid_Acc=68.9, Valid_Loss=0.619]
+Validation Metrics - Accuracy: 0.6889, Precision: 0.8551, Recall: 0.4590, F1: 0.4876, ROC-AUC: 0.8165
+
+[INFO] Epoch 5/10 for swin_t
+100%|██████████| 53/53 [03:27<00:00,  3.91s/it, Epoch=4, Train_Loss=0.422]
+100%|██████████| 6/6 [00:03<00:00,  1.75it/s, Epoch=4, Valid_Acc=73.1, Valid_Loss=0.54] 
+Validation Metrics - Accuracy: 0.7306, Precision: 0.8187, Recall: 0.5445, F1: 0.6292, ROC-AUC: 0.8345
+
+[INFO] Epoch 6/10 for swin_t
+100%|██████████| 53/53 [03:29<00:00,  3.96s/it, Epoch=5, Train_Loss=0.402]
+100%|██████████| 6/6 [00:03<00:00,  1.75it/s, Epoch=5, Valid_Acc=75.8, Valid_Loss=0.488]
+Validation Metrics - Accuracy: 0.7583, Precision: 0.8018, Recall: 0.6461, F1: 0.6997, ROC-AUC: 0.8460
+
+[INFO] Epoch 7/10 for swin_t
+100%|██████████| 53/53 [03:27<00:00,  3.91s/it, Epoch=6, Train_Loss=0.389]
+100%|██████████| 6/6 [00:03<00:00,  1.76it/s, Epoch=6, Valid_Acc=77.3, Valid_Loss=0.464]
+Validation Metrics - Accuracy: 0.7731, Precision: 0.7806, Recall: 0.7695, F1: 0.7646, ROC-AUC: 0.8569
+
+[INFO] Epoch 8/10 for swin_t
+100%|██████████| 53/53 [03:27<00:00,  3.91s/it, Epoch=7, Train_Loss=0.363]
+100%|██████████| 6/6 [00:03<00:00,  1.76it/s, Epoch=7, Valid_Acc=75.7, Valid_Loss=0.484]
+Validation Metrics - Accuracy: 0.7574, Precision: 0.7839, Recall: 0.6780, F1: 0.7169, ROC-AUC: 0.8389
+
+[INFO] Epoch 9/10 for swin_t
+100%|██████████| 53/53 [03:27<00:00,  3.91s/it, Epoch=8, Train_Loss=0.35] 
+100%|██████████| 6/6 [00:03<00:00,  1.77it/s, Epoch=8, Valid_Acc=74.9, Valid_Loss=0.539]
+Validation Metrics - Accuracy: 0.7491, Precision: 0.7844, Recall: 0.7161, F1: 0.7233, ROC-AUC: 0.8281
+
+[INFO] Epoch 10/10 for swin_t
+100%|██████████| 53/53 [03:27<00:00,  3.91s/it, Epoch=9, Train_Loss=0.337]
+100%|██████████| 6/6 [00:03<00:00,  1.77it/s, Epoch=9, Valid_Acc=73.5, Valid_Loss=0.601]
+Validation Metrics - Accuracy: 0.7352, Precision: 0.7856, Recall: 0.6816, F1: 0.6950, ROC-AUC: 0.8345
+
+[INFO] Training dino_vit_small...
+
+
+[INFO] Epoch 1/10 for dino_vit_small
+100%|██████████| 53/53 [03:16<00:00,  3.71s/it, Epoch=0, Train_Loss=0.54] 
+100%|██████████| 6/6 [00:04<00:00,  1.40it/s, Epoch=0, Valid_Acc=65.7, Valid_Loss=0.68] 
+Validation Metrics - Accuracy: 0.6574, Precision: 0.5035, Recall: 0.4081, F1: 0.4093, ROC-AUC: 0.6826
+
+[INFO] Epoch 2/10 for dino_vit_small
+100%|██████████| 53/53 [03:15<00:00,  3.69s/it, Epoch=1, Train_Loss=0.5]  
+100%|██████████| 6/6 [00:04<00:00,  1.43it/s, Epoch=1, Valid_Acc=67.3, Valid_Loss=0.608]
+Validation Metrics - Accuracy: 0.6731, Precision: 0.4792, Recall: 0.4998, F1: 0.4846, ROC-AUC: 0.7428
+
+[INFO] Epoch 3/10 for dino_vit_small
+100%|██████████| 53/53 [03:15<00:00,  3.69s/it, Epoch=2, Train_Loss=0.48] 
+100%|██████████| 6/6 [00:04<00:00,  1.42it/s, Epoch=2, Valid_Acc=67.2, Valid_Loss=0.64] 
+Validation Metrics - Accuracy: 0.6722, Precision: 0.4676, Recall: 0.5489, F1: 0.5047, ROC-AUC: 0.7517
+
+[INFO] Epoch 4/10 for dino_vit_small
+100%|██████████| 53/53 [03:20<00:00,  3.77s/it, Epoch=3, Train_Loss=0.468]
+100%|██████████| 6/6 [00:04<00:00,  1.42it/s, Epoch=3, Valid_Acc=66.9, Valid_Loss=0.615]
+Validation Metrics - Accuracy: 0.6694, Precision: 0.8416, Recall: 0.4238, F1: 0.4351, ROC-AUC: 0.7732
+
+[INFO] Epoch 5/10 for dino_vit_small
+100%|██████████| 53/53 [03:16<00:00,  3.71s/it, Epoch=4, Train_Loss=0.45] 
+100%|██████████| 6/6 [00:04<00:00,  1.41it/s, Epoch=4, Valid_Acc=67.5, Valid_Loss=0.604]
+Validation Metrics - Accuracy: 0.6750, Precision: 0.8401, Recall: 0.4352, F1: 0.4501, ROC-AUC: 0.7870
+
+[INFO] Epoch 6/10 for dino_vit_small
+100%|██████████| 53/53 [03:18<00:00,  3.75s/it, Epoch=5, Train_Loss=0.43] 
+100%|██████████| 6/6 [00:04<00:00,  1.42it/s, Epoch=5, Valid_Acc=70.6, Valid_Loss=0.547]
+Validation Metrics - Accuracy: 0.7065, Precision: 0.8309, Recall: 0.5099, F1: 0.5514, ROC-AUC: 0.8126
+
+[INFO] Epoch 7/10 for dino_vit_small
+100%|██████████| 53/53 [03:15<00:00,  3.69s/it, Epoch=6, Train_Loss=0.406]
+100%|██████████| 6/6 [00:04<00:00,  1.43it/s, Epoch=6, Valid_Acc=74.7, Valid_Loss=0.506]
+Validation Metrics - Accuracy: 0.7472, Precision: 0.8094, Recall: 0.6500, F1: 0.6928, ROC-AUC: 0.8257
+
+[INFO] Epoch 8/10 for dino_vit_small
+100%|██████████| 53/53 [03:15<00:00,  3.69s/it, Epoch=7, Train_Loss=0.393]
+100%|██████████| 6/6 [00:04<00:00,  1.41it/s, Epoch=7, Valid_Acc=74.3, Valid_Loss=0.503]
+Validation Metrics - Accuracy: 0.7426, Precision: 0.7766, Recall: 0.6735, F1: 0.6997, ROC-AUC: 0.8208
+
+[INFO] Epoch 9/10 for dino_vit_small
+100%|██████████| 53/53 [03:15<00:00,  3.70s/it, Epoch=8, Train_Loss=0.371]
+100%|██████████| 6/6 [00:04<00:00,  1.42it/s, Epoch=8, Valid_Acc=67.8, Valid_Loss=0.716]
+Validation Metrics - Accuracy: 0.6778, Precision: 0.8259, Recall: 0.4291, F1: 0.4836, ROC-AUC: 0.8064
+
+[INFO] Epoch 10/10 for dino_vit_small
+100%|██████████| 53/53 [03:15<00:00,  3.69s/it, Epoch=9, Train_Loss=0.365]
+100%|██████████| 6/6 [00:04<00:00,  1.43it/s, Epoch=9, Valid_Acc=72.7, Valid_Loss=0.55] 
+Validation Metrics - Accuracy: 0.7269, Precision: 0.7769, Recall: 0.6224, F1: 0.6577, ROC-AUC: 0.8184
+
+
+
+
+
+
+
